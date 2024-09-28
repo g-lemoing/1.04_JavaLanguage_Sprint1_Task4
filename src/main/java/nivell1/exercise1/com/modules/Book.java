@@ -3,7 +3,7 @@ package nivell1.exercise1.com.modules;
 import java.util.Objects;
 
 public class Book implements Comparable<Book>{
-    private String title;
+    private final String title;
 
     public Book(String title){
         this.title = title;
@@ -11,10 +11,6 @@ public class Book implements Comparable<Book>{
 
     public String getTitle() {
         return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     @Override

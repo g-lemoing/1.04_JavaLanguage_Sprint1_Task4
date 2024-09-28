@@ -3,10 +3,9 @@ package nivell1.exercise1.com.modules;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 public class Library {
-    private ArrayList<Book> bookList;
+    private final ArrayList<Book> bookList;
 
     public Library(){
         this.bookList = new ArrayList<>();
